@@ -1,0 +1,20 @@
+============================= test session starts ==============================
+platform linux -- Python 3.6.9, pytest-4.6.2, py-1.8.0, pluggy-0.12.0 -- /home/bruno/codenation/data-science-1/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/bruno/codenation/data-science-1
+collecting ... collected 5 items
+
+test_submit.py::test_q1 PASSED                                           [ 20%]
+test_submit.py::test_q2 PASSED                                           [ 40%]
+test_submit.py::test_q3 PASSED                                           [ 60%]
+test_submit.py::test_q4 PASSED                                           [ 80%]
+test_submit.py::test_q5 PASSED                                           [100%]
+
+=============================== warnings summary ===============================
+main.py:76
+  /home/bruno/codenation/data-science-1/main.py:76: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+    plt.show()
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+----- generated xml file: /home/bruno/codenation/data-science-1/output.xml -----
+===================== 5 passed, 1 warnings in 1.87 seconds =====================
